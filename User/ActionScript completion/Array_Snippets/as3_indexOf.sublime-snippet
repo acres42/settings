@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+indexOf( ${1:(*)_searchElement} , ${0:start_index} );
+]]></content>
+	<tabTrigger>indexOf</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

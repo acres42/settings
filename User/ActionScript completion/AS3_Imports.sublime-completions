@@ -1,0 +1,120 @@
+{
+	"scope": "source.actionscript.3",
+
+	"completions":
+	[
+		{ "trigger": "import_flash.events.Event", "contents": "import flash.events.Event;" },
+		{ "trigger": "import_flash.events.MouseEvent", "contents": "import flash.events.MouseEvent;" },
+		{ "trigger": "import_flash.events.KeyboardEvent", "contents": "import flash.events.KeyboardEvent;" },
+		{ "trigger": "import_flash.events.FocusEvent", "contents": "import flash.events.FocusEvent;" },
+		{ "trigger": "import_flash.events.IOErrorEvent", "contents": "import flash.events.IOErrorEvent;" },
+		{ "trigger": "import_flash.events.ProgressEvent", "contents": "import flash.events.ProgressEvent;" },
+		{ "trigger": "import_flash.events.StatusEvent", "contents": "import flash.events.StatusEvent;" },
+		{ "trigger": "import_flash.events.TextEvent", "contents": "import flash.events.TextEvent;" },
+		{ "trigger": "import_flash.events.TimerEvent", "contents": "import flash.events.TimerEvent;" },
+		{ "trigger": "import_flash.events.TouchEvent", "contents": "import flash.events.TouchEvent;" },
+
+
+		{ "trigger": "import_fl.data", "contents": "import fl.data;" },
+		{ "trigger": "import_fl.FocusManager", "contents": "import fl.FocusManager;" },
+		{ "trigger": "import_fl.StyleManager", "contents": "import fl.StyleManager;" },
+
+
+		{ "trigger": "import_flash.net.URLLoader", "contents": "import flash.net.URLLoader;" },
+		{ "trigger": "import_flash.net.FileFilter", "contents": "import flash.net.FileFilter;" },
+		{ "trigger": "import_flash.net.FileReference", "contents": "import flash.net.FileReference;" },
+		{ "trigger": "import_flash.net.FileReferenceList", "contents": "import flash.net.FileReferenceList;" },
+		{ "trigger": "import_flash.net.LocalConnection", "contents": "import flash.net.LocalConnection;" },
+		{ "trigger": "import_flash.net.NetStreamInfo", "contents": "import flash.net.NetStreamInfo;" },
+		{ "trigger": "import_flash.net.SharedObject", "contents": "import flash.net.SharedObject;" },
+		{ "trigger": "import_flash.net.SharedObjectFlushStatus", "contents": "import flash.net.SharedObjectFlushStatus;" },
+		{ "trigger": "import_flash.net.URLRequest", "contents": "import flash.net.URLRequest;" },
+		{ "trigger": "import_flash.net.URLRequestHeader", "contents": "import flash.net.URLRequestHeader;" },
+		{ "trigger": "import_flash.net.URLRequestMethod", "contents": "import flash.net.URLRequestMethod;" },
+		{ "trigger": "import_flash.net.URLStream", "contents": "import flash.net.URLStream;" },
+		{ "trigger": "import_flash.net.URLVariables", "contents": "import flash.net.URLVariables;" },
+		{ "trigger": "import_flash.net.XMLSocket", "contents": "import flash.net.XMLSocket;" },
+
+
+		{ "trigger": "import_fl.transitions.Tween", "contents": "import fl.transitions.Tween;" },
+		{ "trigger": "import_fl.transitions.easing", "contents": "import fl.transitions.easing.*;" },
+		{ "trigger": "import_fl.transitions.TweenEvent", "contents": "import fl.transitions.TweenEvent;" },
+
+
+		{ "trigger": "import_fl.motion.AdjustColor", "contents": "import fl.motion.AdjustColor;" },
+		{ "trigger": "import_fl.motion.Animator", "contents": "import fl.motion.Animator;" },
+		{ "trigger": "import_fl.motion.AnimatorBase", "contents": "import fl.motion.AnimatorBase;" },
+		{ "trigger": "import_fl.motion.AnimatorFactory", "contents": "import fl.motion.AnimatorFactory;" },
+		{ "trigger": "import_fl.motion.AnimatorFactoryBase", "contents": "import fl.motion.AnimatorFactoryBase;" },
+		{ "trigger": "import_fl.motion.AnimatorFactoryUniversal", "contents": "import fl.motion.AnimatorFactoryUniversal;" },
+		{ "trigger": "import_fl.motion.BezierEase", "contents": "import fl.motion.BezierEase;" },
+		{ "trigger": "import_fl.motion.BesierSegment", "contents": "import fl.motion.BesierSegment;" },
+
+
+		{ "trigger": "import_flash.display.Bitmap", "contents": "import flash.display.Bitmap;" },
+		{ "trigger": "import_flash.display.BitmapData", "contents": "import flash.display.BitmapData;" },
+		{ "trigger": "import_flash.display.BlendMode", "contents": "import flash.display.BlendMode;" },
+		{ "trigger": "import_flash.display.DisplayObject", "contents": "import flash.display.DisplayObject;" },
+		{ "trigger": "import_flash.display.DisplayObjectContainer", "contents": "import flash.display.DisplayObjectContainer;" },
+		{ "trigger": "import_flash.display.FrameLabel", "contents": "import flash.display.FrameLabel;" },
+		{ "trigger": "import_flash.display.GradientType", "contents": "import flash.display.GradientType;" },
+		{ "trigger": "import_flash.display.Graphics", "contents": "import flash.display.Graphics;" },
+		{ "trigger": "import_flash.display.JointStyle", "contents": "import flash.display.JointStyle;" },
+		{ "trigger": "import_flash.display.Loader", "contents": "import flash.display.Loader;" },
+		{ "trigger": "import_flash.display.LoaderInfo", "contents": "import flash.display.LoaderInfo;" },
+		{ "trigger": "import_flash.display.MovieClip", "contents": "import flash.display.MovieClip;" },
+		{ "trigger": "import_flash.display.PixelSnapping", "contents": "import flash.display.PixelSnapping;" },
+		{ "trigger": "import_flash.display.Shape", "contents": "import flash.display.Shape;" },
+		{ "trigger": "import_flash.display.SimpleButton", "contents": "import flash.display.SimpleButton;" },
+		{ "trigger": "import_flash.display.Sprite", "contents": "import flash.display.Sprite;" },
+		{ "trigger": "import_flash.display.Stage", "contents": "import flash.display.Stage;" },
+
+
+		{ "trigger": "import_flash.external.ExternalInterface", "contents": "import flash.external.ExternalInterface;" },
+
+
+		{ "trigger": "import_flash.geom.ColorTransform", "contents": "import flash.geom.ColorTransform;" },
+		{ "trigger": "import_flash.geom.Point", "contents": "import flash.geom.Point;" },
+		{ "trigger": "import_flash.geom.Transform", "contents": "import flash.geom.Transform;" },
+
+
+		{ "trigger": "import_flash.printing.PrintJob", "contents": "import flash.printing.PrintJob;" },
+		{ "trigger": "import_flash.printing.PrintJobOptions", "contents": "import flash.printing.PrintJobOptions;" },
+		{ "trigger": "import_flash.printing.PrintJobOrientation", "contents": "import flash.printing.PrintJobOrientation;" },
+
+
+		{ "trigger": "import_flash.system.LoaderContext", "contents": "import flash.system.LoaderContext;" },
+		{ "trigger": "import_flash.system.Security", "contents": "import flash.system.Security;" },
+		{ "trigger": "import_flash.system.SecurityDomain", "contents": "import flash.system.SecurityDomain;" },
+		{ "trigger": "import_flash.system.System", "contents": "import flash.system.System;" },
+
+
+		{ "trigger": "import_flash.text.AntiAliasType", "contents": "import flash.text.AntiAliasType;" },
+		{ "trigger": "import_flash.text.Font", "contents": "import flash.text.Font;" },
+		{ "trigger": "import_flash.text.FontStyle", "contents": "import flash.text.FontStyle;" },
+		{ "trigger": "import_flash.text.FontType", "contents": "import flash.text.FontType;" },
+		{ "trigger": "import_flash.text.TextField", "contents": "import flash.text.TextField;" },
+		{ "trigger": "import_flash.text.TextFieldAutoSize", "contents": "import flash.text.TextFieldAutoSize;" },
+		{ "trigger": "import_flash.text.TextFieldType", "contents": "import flash.text.TextFieldType;" },
+		{ "trigger": "import_flash.text.TextFormat", "contents": "import flash.text.TextFormat;" },
+		{ "trigger": "import_flash.text.TextFormatAlign", "contents": "import flash.text.TextFormatAlign;" },
+
+
+		{ "trigger": "import_flash.ui.ContextMenu", "contents": "import flash.ui.ContextMenu;" },
+		{ "trigger": "import_flash.ui.ContextMenuBuiltInItems", "contents": "import flash.ui.ContextMenuBuiltInItems;" },
+		{ "trigger": "import_flash.ui.ContextMenuClipboardItems", "contents": "import flash.ui.ContextMenuClipboardItems;" },
+		{ "trigger": "import_flash.ui.ContextMenuItem", "contents": "import flash.ui.ContextMenuItem;" },
+
+
+		{ "trigger": "import_flash.utils", "contents": "import flash.utils;" },
+		{ "trigger": "import_flash.utils.ByteArray", "contents": "import flash.utils.ByteArray;" },
+		{ "trigger": "import_flash.utils.Dictionary", "contents": "import flash.utils.Dictionary;" },
+		{ "trigger": "import_flash.utils.Timer", "contents": "import flash.utils.Timer;" },
+
+
+		{ "trigger": "import_flash.xml", "contents": "import flash.xml;" },
+		{ "trigger": "import_flash.xml.XMLDocument", "contents": "import flash.xml.XMLDocument;" },
+		{ "trigger": "import_flash.xml.XMLNode", "contents": "import flash.xml.XMLNode;" },
+		{ "trigger": "import_flash.xml.XMLNodeType", "contents": "import flash.xml.XMLNodeType;" }
+	]
+}

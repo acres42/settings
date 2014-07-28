@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:public/privare} function ${2:functionName}(${3:args...}):${4:returnClass}{
+	
+	return ${0:returnVal};
+}
+]]></content>
+	<tabTrigger>function return</tabTrigger>
+	<scope>source.actionscript.3</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+var ${1:varName}:${0:class};
+]]></content>
+	<tabTrigger>var anonymous</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

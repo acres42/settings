@@ -1,0 +1,116 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+use ${1:Namespace}\\${2:Model}\\${2:Model}RepositoryInterface;
+
+class ${2:Model}Controller extends BaseController {
+
+	protected \$${2/(.+)/\L\1/g};
+
+	function __construct(${2:Model}RepositoryInterface \$${2/(.+)/\L\1/g}) {
+		\$this->${2/(.+)/\L\1/g} = \$${2/(.+)/\L\1/g};
+	}
+
+	/**
+	 * Display a listing of the resource.
+	 *
+	 * @return Response
+	 */
+	public function index()
+	{
+		\$${2/(.+)/\L\1/g}s = \$this->${2/(.+)/\L\1/g}->all();
+
+        return View::make('${3:prefix.}${2/(.+)/\L\1/g}s.index', compact('${2/(.+)/\L\1/g}s'));
+	}
+
+	/**
+	 * Show the form for creating a new resource.
+	 *
+	 * @return Response
+	 */
+	public function create()
+	{
+        return View::make('${3:prefix.}${2/(.+)/\L\1/g}s.create');
+	}
+
+	/**
+	 * Store a newly created resource in storage.
+	 *
+	 * @return Response
+	 */
+	public function store()
+	{
+		\$response = \$this->${2/(.+)/\L\1/g}->store();
+
+		if( \$response )
+		{
+			return Redirect::route('${3:prefix.}${2/(.+)/\L\1/g}s.index');
+		}
+
+		return Redirect::route('${3:prefix.}${2/(.+)/\L\1/g}s.create')->withInput();
+	}
+
+	/**
+	 * Display the specified resource.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function show(\$id)
+	{
+		\$${2/(.+)/\L\1/g} = \$this->${2/(.+)/\L\1/g}->find(\$id);
+
+        return View::make('${3:prefix.}${2/(.+)/\L\1/g}s.show', compact('${2/(.+)/\L\1/g}'));
+	}
+
+	/**
+	 * Show the form for editing the specified resource.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function edit(\$id)
+	{
+		\$${2/(.+)/\L\1/g} = \$this->${2/(.+)/\L\1/g}->find(\$id);
+
+        return View::make('${3:prefix.}${2/(.+)/\L\1/g}s.edit', compact('${2/(.+)/\L\1/g}'));
+	}
+
+	/**
+	 * Update the specified resource in storage.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function update(\$id)
+	{
+		\$response = \$this->${2/(.+)/\L\1/g}->update(\$id);
+
+		if( \$response )
+		{
+			return Redirect::route('${3:prefix.}${2/(.+)/\L\1/g}s.index');
+		}
+
+		return Redirect::route('${3:prefix.}${2/(.+)/\L\1/g}s.edit', \$id)->withInput();
+	}
+
+	/**
+	 * Remove the specified resource from storage.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function destroy(\$id)
+	{
+		\$this->${2/(.+)/\L\1/g}->destroy(\$id);
+
+		return Redirect::route('${3:prefix.}${2/(.+)/\L\1/g}s.index');
+	}
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>controller</tabTrigger>
+</snippet>

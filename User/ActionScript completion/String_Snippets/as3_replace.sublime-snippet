@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+replace( ${1:pattern_(str_or_regexp)}, ${0:string} );
+]]></content>
+	<tabTrigger>replace</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

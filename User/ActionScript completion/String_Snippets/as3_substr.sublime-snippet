@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+substr( ${1:start_index}, ${0:length} );
+]]></content>
+	<tabTrigger>substr</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:Namespace}\Providers;
+
+use App;
+use Illuminate\Support\ServiceProvider;
+
+class ${2:Model}Provider extends ServiceProvider{
+
+	public function register()
+	{
+		App::bind('${1:Namespace}\\${2:Model}\\${2:Model}RepositoryInterface', '${1:Namespace}\Repositories\\${2:Model}RepositoryEloquent');
+	}
+
+	public function boot()
+	{
+		//
+	}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>serviceprovider</tabTrigger>
+</snippet>

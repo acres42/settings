@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+addChild( ${0:DisplayObject} )
+]]></content>
+	<tabTrigger>addChild</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:Namespace}\Dictators;
+
+class ${2:Model}Dictator extends Dictator{
+	protected \$messages = array();
+
+	protected \$createRules = array(
+		${3}
+	);
+
+	protected \$updateRules = array(
+		${4}
+	);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dictator</tabTrigger>
+</snippet>

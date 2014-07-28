@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+lastIndexOf( ${1:val}, ${0:(optional)_startIndex} );
+]]></content>
+	<tabTrigger>lastIndexOf</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

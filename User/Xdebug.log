@@ -1,0 +1,5 @@
+[07/28/2014 02:42:50PM] INFO - ==== Loading 'Xdebug Client.sublime-package' package ====
+[07/28/2014 02:42:51PM] INFO - Failed to open /Users/aroselee/Library/Application Support/Sublime Text 3/Packages/User/Xdebug.expressions.
+[07/28/2014 02:42:51PM] DEBUG - [Errno 2] No such file or directory: '/Users/aroselee/Library/Application Support/Sublime Text 3/Packages/User/Xdebug.expressions'
+[07/28/2014 02:42:51PM] INFO - Failed to parse /Users/aroselee/Library/Application Support/Sublime Text 3/Packages/User/Xdebug.expressions.
+[07/28/2014 02:42:51PM] DEBUG - local variable 'data_file' referenced before assignment

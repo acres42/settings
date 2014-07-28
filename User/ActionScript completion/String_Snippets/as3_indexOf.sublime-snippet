@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+indexOf( ${1:val}, ${0:(optional)_startIndex} );
+]]></content>
+	<tabTrigger>indexOf</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

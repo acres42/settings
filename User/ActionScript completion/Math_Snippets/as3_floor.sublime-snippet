@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.floor(${0:value});
+]]></content>
+	<tabTrigger>math floor</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

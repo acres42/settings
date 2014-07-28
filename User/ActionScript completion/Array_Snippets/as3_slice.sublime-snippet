@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+slice( ${1:start_index} , ${0:index_index} );
+]]></content>
+	<tabTrigger>slice</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

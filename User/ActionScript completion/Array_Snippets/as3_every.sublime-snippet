@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+every( ${1:callback} , ${0:(null_if_this)_thisObject} );
+]]></content>
+	<tabTrigger>every</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

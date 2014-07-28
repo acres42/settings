@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:Namespace}\\${2:Model};
+
+interface ${2:Model}RepositoryInterface{
+	public function all();
+	public function find(\$id);
+	public function store(\$input);
+	public function update(\$id, \$input);
+	public function destroy(\$id);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>repositoryinterface</tabTrigger>
+</snippet>

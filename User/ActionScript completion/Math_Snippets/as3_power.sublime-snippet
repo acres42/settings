@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.pow(${1:base}, ${0:power});
+]]></content>
+	<tabTrigger>math power</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

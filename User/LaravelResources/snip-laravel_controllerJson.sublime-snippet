@@ -1,0 +1,94 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+use ${1:Namespace}\\${2:Model}\\${2:Model}RepositoryInterface;
+
+class ${2:Model}Controller extends BaseController {
+
+	protected \$${2/(.+)/\L\1/g};
+
+	function __construct(${2:Model}RepositoryInterface \$${2/(.+)/\L\1/g}) {
+		\$this->${2/(.+)/\L\1/g} = \$${2/(.+)/\L\1/g};
+	}
+
+	/**
+	 * Display a listing of the resource.
+	 *
+	 * @return Response
+	 */
+	public function index()
+	{
+		\$${2/(.+)/\L\1/g}s = \$this->${2/(.+)/\L\1/g}->all();
+
+        return \$${2/(.+)/\L\1/g}s;
+	}
+
+	/**
+	 * Store a newly created resource in storage.
+	 *
+	 * @return Response
+	 */
+	public function store()
+	{
+		\$response = \$this->${2/(.+)/\L\1/g}->store();
+
+		if(\$response) {
+			return \$this->${2/(.+)/\L\1/g}->all();
+		}
+
+		return Response::json(Session::get('errors'), 404);
+	}
+
+	/**
+	 * Display the specified resource.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function show(\$id)
+	{
+		\$${2/(.+)/\L\1/g} = \$this->${2/(.+)/\L\1/g}->find(\$id);
+
+      return \$${2/(.+)/\L\1/g};
+	}
+
+	/**
+	 * Update the specified resource in storage.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function update(\$id)
+	{
+		\$response = \$this->${2/(.+)/\L\1/g}->update(\$id);
+
+		if(\$response) {
+			return \$this->${2/(.+)/\L\1/g}->all();
+		}
+
+		return Response::json(Session::get('errors'), 404);
+	}
+
+	/**
+	 * Remove the specified resource from storage.
+	 *
+	 * @param  int  \$id
+	 * @return Response
+	 */
+	public function destroy(\$id)
+	{
+		\$response = \$this->${2/(.+)/\L\1/g}->destroy(\$id);
+
+		if(\$response) {
+			return 'success';
+		}
+
+		return Response::json('Failed Delete on '.\$id, 404);
+	}
+
+}
+
+]]></content>
+	<tabTrigger>controllerJson</tabTrigger>
+</snippet>

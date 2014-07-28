@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.abs(${0:value});
+]]></content>
+	<tabTrigger>math absolute</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

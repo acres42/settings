@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.log(${0:value});
+]]></content>
+	<tabTrigger>math logarithm</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

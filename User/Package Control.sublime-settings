@@ -1,0 +1,24 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Emmet",
+		"Highlight Whitespaces",
+		"Phpcs",
+		"PhpNamespace",
+		"PhpSpec Snippets",
+		"SelectNextNumber",
+		"SideBarEnhancements",
+		"SideBarFolders",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"SublimeLinter-phplint",
+		"SublimeLinter-phpmd",
+		"Theme - Centurion",
+		"Theme - Centurion Blue",
+		"TrailingSpaces",
+		"VAlign",
+		"Xdebug Client"
+	]
+}

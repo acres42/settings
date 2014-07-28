@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.cos(${0:radians});
+]]></content>
+	<tabTrigger>math cosine</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

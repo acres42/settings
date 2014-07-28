@@ -1,0 +1,96 @@
+{
+	"scope": "source.actionscript.3",
+
+	"completions":
+	[
+		{ "trigger": "Event.ACTIVATE", "contents": "Event.ACTIVATE" },
+		{ "trigger": "Event.ADDED_TO_STAGE", "contents": "Event.ADDED_TO_STAGE" },
+		{ "trigger": "Event.CANCEL", "contents": "Event.CANCEL" },
+		{ "trigger": "Event.CHANGE", "contents": "Event.CHANGE" },
+		{ "trigger": "Event.CLEAR", "contents": "Event.CLEAR" },
+		{ "trigger": "Event.CLOSE", "contents": "Event.CLOSE" },
+		{ "trigger": "Event.COMPLETE", "contents": "Event.COMPLETE" },
+		{ "trigger": "Event.CONNECT", "contents": "Event.CONNECT" },
+		{ "trigger": "Event.COPY", "contents": "Event.COPY" },
+		{ "trigger": "Event.CUT", "contents": "Event.CUT" },
+		{ "trigger": "Event.DEACTIVATE", "contents": "Event.DEACTIVATE" },
+		{ "trigger": "Event.ENTER_FRAME", "contents": "Event.ENTER_FRAME" },
+		{ "trigger": "Event.EXIT_FRAME", "contents": "Event.EXIT_FRAME" },
+		{ "trigger": "Event.EXITING", "contents": "Event.EXITING" },
+		{ "trigger": "Event.FULLSCREEN", "contents": "Event.FULLSCREEN" },
+		{ "trigger": "Event.ID3", "contents": "Event.ID3" },
+		{ "trigger": "Event.INIT", "contents": "Event.INIT" },
+		{ "trigger": "Event.MOUSE_LEAVE", "contents": "Event.MOUSE_LEAVE" },
+		{ "trigger": "Event.OPEN", "contents": "Event.OPEN" },
+		{ "trigger": "Event.PASTE", "contents": "Event.PASTE" },
+		{ "trigger": "Event.REMOVED", "contents": "Event.REMOVED" },
+		{ "trigger": "Event.REMOVED_FROM_STAGE", "contents": "Event.REMOVED_FROM_STAGE" },
+		{ "trigger": "Event.RESIZE", "contents": "Event.RESIZE" },
+		{ "trigger": "Event.SCROLL", "contents": "Event.SCROLL" },
+		{ "trigger": "Event.SELECT", "contents": "Event.SELECT" },
+		{ "trigger": "Event.SELECT_ALL", "contents": "Event.SELECT_ALL" },
+		{ "trigger": "Event.SOUND_COMPLETE", "contents": "Event.SOUND_COMPLETE" },
+		{ "trigger": "Event.TAB_CHILDREN_CHANGE", "contents": "Event.TAB_CHILDREN_CHANGE" },
+		{ "trigger": "Event.TAB_ENABLED_CHANGE", "contents": "Event.TAB_ENABLED_CHANGE" },
+		{ "trigger": "Event.TAB_INDEX_CHANGE", "contents": "Event.TAB_INDEX_CHANGE" },
+		{ "trigger": "Event.UNLOAD", "contents": "Event.UNLOAD" },
+		{ "trigger": "Event.USER_IDLE", "contents": "Event.USER_IDLE" },
+		{ "trigger": "Event.USER_PRESENT", "contents": "Event.USER_PRESENT" },
+
+
+		{ "trigger": "MouseEvent.CLICK", "contents": "MouseEvent.CLICK" },
+		{ "trigger": "MouseEvent.CONTEXT_MENU", "contents": "MouseEvent.CONTEXT_MENU" },
+		{ "trigger": "MouseEvent.DOUBLE_CLICK", "contents": "MouseEvent.DOUBLE_CLICK" },
+		{ "trigger": "MouseEvent.MIDDLE_CLICK", "contents": "MouseEvent.MIDDLE_CLICK" },
+		{ "trigger": "MouseEvent.MIDDLE_MOUSE_DOWN", "contents": "MouseEvent.MIDDLE_MOUSE_DOWN" },
+		{ "trigger": "MouseEvent.MIDDLE_MOUSE_UP", "contents": "MouseEvent.MIDDLE_MOUSE_UP" },
+		{ "trigger": "MouseEvent.MOUSE_DOWN", "contents": "MouseEvent.MOUSE_DOWN" },
+		{ "trigger": "MouseEvent.MOUSE_MOVE", "contents": "MouseEvent.MOUSE_MOVE" },
+		{ "trigger": "MouseEvent.MOUSE_OUT", "contents": "MouseEvent.MOUSE_OVER" },
+		{ "trigger": "MouseEvent.MOUSE_UP", "contents": "MouseEvent.MOUSE_UP" },
+		{ "trigger": "MouseEvent.MOUSE_WHEEL", "contents": "MouseEvent.MOUSE_WHEEL" },
+		{ "trigger": "MouseEvent.RIGHT_CLICK", "contents": "MouseEvent.RIGHT_CLICK" },
+		{ "trigger": "MouseEvent.RIGHT_MOUSE_DOWN", "contents": "MouseEvent.RIGHT_MOUSE_DOWN" },
+		{ "trigger": "MouseEvent.RIGHT_MOUSE_UP", "contents": "MouseEvent.RIGHT_MOUSE_UP" },
+		{ "trigger": "MouseEvent.ROLL_OUT", "contents": "MouseEvent.ROLL_OUT" },
+		{ "trigger": "MouseEvent.ROLL_OVER", "contents": "MouseEvent.ROLL_OVER" },
+
+
+		{ "trigger": "KeyboardEvent.KEY_DOWN", "contents": "KeyboardEvent.KEY_DOWN" },
+		{ "trigger": "KeyboardEvent.KEY_UP", "contents": "KeyboardEvent.KEY_UP" },
+
+
+		{ "trigger": "FocusEvent.FOCUS_IN", "contents": "FocusEvent.FOCUS_IN" },
+		{ "trigger": "FocusEvent.FOCUS_OUT", "contents": "FocusEvent.FOCUS_OUT" },
+		{ "trigger": "FocusEvent.KEY_FOCUS_CHANGE", "contents": "FocusEvent.KEY_FOCUS_CHANGE" },
+		{ "trigger": "FocusEvent.MOUSE_FOCUS_CHANGE", "contents": "FocusEvent.MOUSE_FOCUS_CHANGE" },
+
+
+		{ "trigger": "IOErrorEvent.IO_ERROR", "contents": "IOErrorEvent.IO_ERROR" },
+
+
+		{ "trigger": "ProgressEvent.PROGRESS", "contents": "ProgressEvent.PROGRESS" },
+		{ "trigger": "ProgressEvent.SOCKET_DATA", "contents": "ProgressEvent.SOCKET_DATA" },
+
+
+		{ "trigger": "StatusEvent.STATUS", "contents": "StatusEvent.STATUS" },
+
+
+		{ "trigger": "TextEvent.LINK", "contents": "TextEvent.LINK" },
+		{ "trigger": "TextEvent.TEXT_INPUT", "contents": "TextEvent.TEXT_INPUT" },
+
+
+		{ "trigger": "TimerEvent.TIMER", "contents": "TimerEvent.TIMER" },
+		{ "trigger": "TimerEvent.TIMER_COMPLETE", "contents": "TimerEvent.TIMER_COMPLETE" },
+
+
+		{ "trigger": "TouchEvent.TOUCH_BEGIN", "contents": "TouchEvent.TOUCH_BEGIN" },
+		{ "trigger": "TouchEvent.TOUCH_END", "contents": "TouchEvent.TOUCH_END" },
+		{ "trigger": "TouchEvent.TOUCH_MOVE", "contents": "TouchEvent.TOUCH_MOVE" },
+		{ "trigger": "TouchEvent.TOUCH_OUT", "contents": "TouchEvent.TOUCH_OUT" },
+		{ "trigger": "TouchEvent.TOUCH_OVER", "contents": "TouchEvent.TOUCH_OVER" },
+		{ "trigger": "TouchEvent.TOUCH_ROLL_OUT", "contents": "TouchEvent.TOUCH_ROLL_OUT" },
+		{ "trigger": "TouchEvent.TOUCH_ROLL_OVER", "contents": "TouchEvent.TOUCH_ROLL_OVER" },
+		{ "trigger": "TouchEvent.TOUCH_TAP", "contents": "TouchEvent.TOUCH_TAP" }
+	]
+}

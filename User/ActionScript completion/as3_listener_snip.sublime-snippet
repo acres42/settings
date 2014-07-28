@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+addEventListener(${1:EventType}, ${2:callFunction});
+
+${3:public/private} function ${2:functionName}(e:${4:Event}):void{
+	${0:action}
+}
+]]></content>
+	<tabTrigger>addEventListener</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

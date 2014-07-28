@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.ceil(${0:value});
+]]></content>
+	<tabTrigger>math ceiling</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

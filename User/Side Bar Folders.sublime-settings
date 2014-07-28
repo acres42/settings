@@ -1,0 +1,153 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Volumes/pwd"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/usr/local/bin"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/timetracker"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/ticketbe"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/l4-test"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/jazzhands"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/imagehostapi"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/gasmail"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/eat-it"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/campaign"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox/angstarter"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/unibox"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/testing123"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/sevenball_z"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Library/Application Support/Sublime Text 3/Packages/User"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Downloads/ccemail"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Downloads"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/timetracker"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/ticketbe"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/jazzhands/app/database/seeds"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/jazzhands"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/imagehostAPI/app/database/migrations"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/imagehostAPI"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/imagehostapi"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/gasmail"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/deleteleeteleet"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/campaigns"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/campaign/app/GIADC/Accounts"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/campaign/app/database/seeds"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/campaign/app"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/campaign/.git"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/campaign"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/Desktop/api-test"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/.ssh"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee/.composer"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/aroselee"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/etc/apache2"
+		}
+	]
+}

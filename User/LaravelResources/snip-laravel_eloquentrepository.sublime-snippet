@@ -1,0 +1,68 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:Namespace}\Repositories;
+
+use Input;
+use Redirect;
+use ${1:Namespace}\\${2:Model}\\${2:Model};
+use ${1:Namespace}\Dictators\\${2:Model}Dictator;
+use ${1:Namespace}\\${2:Model}\\${2:Model}RepositoryInterface;
+
+class ${2:Model}RepositoryEloquent implements ${2:Model}RepositoryInterface{
+
+	protected \$dictator;
+
+	function __construct(${2:Model}Dictator \$dictator) {
+		\$this->dictator = \$dictator;
+	}
+
+	public function all()
+	{
+		return ${2:Model}::all();
+	}
+
+	public function find(\$id)
+	{
+		return ${2:Model}::findOrFail(\$id);
+	}
+
+	public function store(\$input = null)
+	{
+		\$input = \$input ?: Input::all();
+
+        if( \$this->dictator->passes() )
+        {
+			\$${2/(.+)/\L\1/g} = new ${2:Model};
+			\$${2/(.+)/\L\1/g}->create(\$input);
+
+			return true;
+        }
+
+        return false;
+	}
+
+	public function update(\$id, \$input = null)
+	{
+		\$input = \$input ?: array_except(Input::all(), '_method');
+
+		if( \$this->dictator->passes() )
+		{
+			\$${2/(.+)/\L\1/g} = \$this->find(\$id);
+			\$${2/(.+)/\L\1/g}->update(\$input);
+
+			return true;
+		}
+
+		return false;
+	}
+
+	public function destroy(\$id)
+	{
+		return \$this->find(\$id)->delete();
+	}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>eloquentrepository</tabTrigger>
+</snippet>

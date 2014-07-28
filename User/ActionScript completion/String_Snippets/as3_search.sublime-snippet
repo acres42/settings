@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+search( ${0:pattern} );
+]]></content>
+	<tabTrigger>search</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

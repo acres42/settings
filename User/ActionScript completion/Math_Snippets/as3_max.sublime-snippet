@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.max( ${1:value}, ${0:value...});
+]]></content>
+	<tabTrigger>math max</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{{ Former::open()->method('${1:METHOD}')->action('${2:action}'${3:, ${$4:args}}) }}
+	{{ ${5} }}
+{{ Former::close() }}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>former</tabTrigger>
+</snippet>

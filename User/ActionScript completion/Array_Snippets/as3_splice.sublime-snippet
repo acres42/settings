@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+splice( ${1:start_index} , ${0:delete_count} );
+]]></content>
+	<tabTrigger>splice</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

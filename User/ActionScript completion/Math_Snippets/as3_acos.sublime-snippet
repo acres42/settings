@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.acos(${0:value});
+]]></content>
+	<tabTrigger>math arc cosine</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

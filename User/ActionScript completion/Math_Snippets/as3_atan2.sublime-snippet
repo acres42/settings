@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.atan2( ${1:y_value}, ${0:x_value});
+]]></content>
+	<tabTrigger>math arc tangent of angle</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

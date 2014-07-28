@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+match( ${0:pattern_(str_or_regexp)} );
+]]></content>
+	<tabTrigger>match</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

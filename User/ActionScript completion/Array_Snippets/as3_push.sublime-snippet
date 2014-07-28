@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+push( ${0:values...} );
+]]></content>
+	<tabTrigger>push</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

@@ -1,0 +1,16 @@
+{
+	"scope": "source.actionscript.3",
+
+	"completions":
+	[
+		{ "trigger": "pop", "contents": "pop()" },
+		{ "trigger": "reverse", "contents": "reverse()" },
+		{ "trigger": "shift", "contents": "shift()" },
+		{ "trigger": "toString", "contents": "toString()" },
+
+		"CASEINSENSITIVE",
+		"DESCENDING",
+		"RETURNINDEXEDARRAY",
+		"UNIQUESORT"
+	]
+}

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+lastIndex( ${1:search_element} , ${0:start_index} );
+]]></content>
+	<tabTrigger>lastIndex</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

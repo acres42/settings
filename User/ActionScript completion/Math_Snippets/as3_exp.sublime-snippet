@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.exp(${0:value});
+]]></content>
+	<tabTrigger>math exponent</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

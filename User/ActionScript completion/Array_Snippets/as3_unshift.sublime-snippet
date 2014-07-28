@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+unshift( ${0:values...} );
+]]></content>
+	<tabTrigger>unshift</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

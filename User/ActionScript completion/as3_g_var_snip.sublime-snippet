@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+${1:public/private} var ${2:varName}:${3:class} = ${0:value};
+]]></content>
+	<tabTrigger>var global</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

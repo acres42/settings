@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.round(${0:value});
+]]></content>
+	<tabTrigger>math round</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

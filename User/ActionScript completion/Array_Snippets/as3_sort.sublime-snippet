@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+sort( ${0:args...} );
+]]></content>
+	<tabTrigger>sort</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

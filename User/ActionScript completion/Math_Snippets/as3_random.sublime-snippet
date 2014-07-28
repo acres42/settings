@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Math.random() * ${0:scale};
+]]></content>
+	<tabTrigger>math random</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>

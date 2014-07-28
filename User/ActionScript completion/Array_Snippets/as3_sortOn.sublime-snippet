@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+sortOn( ${1:field_name} , ${0:(optional)_options} );
+]]></content>
+	<tabTrigger>sortOn</tabTrigger>
+    <scope>source.actionscript.3</scope>
+</snippet>
